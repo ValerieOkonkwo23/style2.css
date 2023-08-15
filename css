@@ -1,0 +1,86 @@
+body{
+    background-color: yellowgreen;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    max-width: 60%;
+    min-width: 300px;
+    margin: auto;
+    padding: 25px;
+    margin-top: 25vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+.temp-fields{
+    background: local;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+}
+.temp-fields input{
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+.temp-fields textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+.button{
+    background: #CCC;
+    border: 1px solid rgba(0,0,0,.2);
+    justify-content: center space-between;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.7), 0 1px 2px rgba(0,0,0,.25);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px 0 15px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.header{
+    font-size: 2em;
+    margin: 10px 0 10px 0;
+}
+.input{
+    background: #F8F8F8;
+    width: 50px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #C6C6C6;
+}
+.spacing{
+    margin: 15px;
+}
+.send-btn{
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    
+}
